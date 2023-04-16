@@ -1,0 +1,159 @@
+/* Nav section */
+.nav{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between; 
+}
+.nav div{
+    display: flex;
+
+}
+ul{
+
+display: flex;
+  flex-direction: row;
+ 
+}
+.nav ul li{
+list-style: none;
+ margin: 5px;
+
+
+}
+.nav ul li a{
+text-decoration: none;
+color:rgb(63, 62, 62);
+}
+.nav ul li a:hover{
+    text-decoration:underline;
+    color:blue;
+    }
+
+.logo{
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 900;
+ margin:28px;
+ font-size:2rem;
+}
+.logo span:hover{
+    color:aqua;
+}
+
+/* Logo decoration */
+.g1{
+    color:blue;
+}
+.o1{
+    color:red;
+}
+.o2{
+
+    color:orange;
+}
+.g2{
+    color:blue;
+}
+.l{
+    color:green;
+}
+.e{
+    color:red;
+}
+
+
+
+/* Advanced search section */
+.search-section form{
+    margin:2.4em; 
+}
+.search-section h2{
+color:red;
+}
+.adv-search{
+    margin:1.8em;
+
+    width:840px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-input{
+    width: 585px;
+    height:2.6em;
+    
+    border:1px solid rgb(175, 186, 196);
+    background: rgb(255, 253, 253);
+}
+
+.search-text{
+font-size:1.3rem;
+}
+
+.adv-searchbtn{
+    /* border:1px solid black; */
+    width:873px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adv-btn{
+    font-weight:700;
+    height:3em;
+    color:white;
+    border:1px solid white;
+    background: rgb(107, 184, 240);
+    border-radius:.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    margin-top: 100px;
+ display:flex;
+ align-items:center;
+ justify-content: center;   
+}
+.container img{
+    height:10em;
+    width:25em;
+}
+.image{
+    display: flex;
+    justify-content: center;  
+}
+.form{
+    margin: 37px;
+    justify-content: space-around;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.search{
+    width: 585px;
+    height:2.6em;
+    border-radius:3em ;
+    border:1px solid rgb(175, 186, 196);
+    background: whitesmoke;
+}
+.btn{
+    margin: 1.2em;
+    border-color:white ;
+    width:10em;
+    height:3em;
+    border: none;
+    background: rgb(253, 245, 245);
+    color: gray;
+    font-weight: 600;
+}
